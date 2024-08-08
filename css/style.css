@@ -179,7 +179,7 @@
         position: relative;
         min-height: 450px;
     }
-    
+
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
@@ -386,3 +386,118 @@
 /* 
 col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s"
  */
+
+/* background for about  */
+
+.head {
+    height: 140px;
+    width: 100%;
+    background-color: #EEEEEE;
+
+}
+
+.bg-about {
+    background-image: linear-gradient(rgb(57 45 45 / 75%), rgb(0 0 0 / 85%)), url("../image/about-2.jpg");
+    height: 40vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-color: white;
+}
+.bg-Contact{
+    background-image: linear-gradient(rgb(57 45 45 / 75%), rgb(0 0 0 / 85%)), url("../image/bgContact.webp");
+    height: 40vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-color: white;
+}
+
+.bg-Basmati {
+    background-image: linear-gradient(rgb(57 45 45 / 75%), rgb(0 0 0 / 85%)), url("../image/basmatiRice-Back.jpg");
+    height: 40vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-color: white;
+}
+
+.bg-dproduct {
+    background-image: linear-gradient(rgb(57 45 45 / 75%), rgb(0 0 0 / 85%)), url("../image/dp-2.png");
+    height: 40vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-color: white;
+}
+
+.bg-wsugar {
+    background-image: linear-gradient(rgb(57 45 45 / 75%), rgba(0, 0, 0, 0.473)), url("../image/wsugarBack.webp");
+    height: 40vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-color: white;
+}
+
+.bg-redOnion {
+    background-image: linear-gradient(rgb(57 45 45 / 75%), rgb(0 0 0 / 85%)), url("../image/red-onion.jpg");
+    height: 40vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-color: white;
+}
+
+.bg-redChilli {
+    background-image: linear-gradient(rgb(57 45 45 / 75%), rgb(0 0 0 / 85%)), url("../image/redChilli-1.webp");
+    height: 40vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-color: white;
+}
+
+.bg-Gcardamom {
+    background-image: linear-gradient(rgb(57 45 45 / 75%), rgb(0 0 0 / 85%)), url("../image/g-4.jpg");
+    height: 40vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-color: white;
+}
+
+.bg-bpBack {
+    background-image: linear-gradient(rgb(57 45 45 / 75%), rgb(0 0 0 / 85%)), url("../image/bpBack.webp");
+    height: 40vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-color: white;
+}
+
+.bg-wsaltBack {
+    background-image: linear-gradient(rgb(57 45 45 / 75%), rgb(0 0 0 / 85%)), url("../image/wsBack.webp");
+    height: 40vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-color: white;
+}
+
+/*  global Search */
+.content-global {
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    height: 170px;
+    margin-bottom: 20px;
+}
+
+.content-global h3 {
+    margin-top: 9px;
+}
+.content-global:hover {
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    height: 130px;
+}
