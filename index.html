@@ -233,8 +233,9 @@
             <div class="row g-0 gx-5 ">
                 <div class="col-12">
                     <h2 class="text-center  fs-1">Our Products</h2>
-                    <p class="text-center p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa deleniti
-                        fugiat perspiciatis laudantium non accusantium ullam obcaecati quis reiciendis minus!.</p>
+                    <p class="text-center p-5">Our farm-fresh produce is hand-picked and delivered straight to your
+                        table. Enjoy the crispness of our seasonal fruits and the vibrant flavors of our vegetables, all
+                        sourced from trusted farms committed to quality and sustainability.</p>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-3 wow fadeInUp " data-wow-delay="0.1s">
                     <div class="card rounded shadow-lg ">
@@ -373,7 +374,9 @@
                     </div>
                     <div class="content-global">
                         <h3 class="px-4 py-2">Performance</h3>
-                        <p class="px-4"> Whether you’re searching for a specific dish or browsing our extensive menu, our website loads in seconds. Say goodbye to frustrating delays and hello to a seamless experience.</p>
+                        <p class="px-4"> Whether you’re searching for a specific dish or browsing our extensive menu,
+                            our website loads in seconds. Say goodbye to frustrating delays and hello to a seamless
+                            experience.</p>
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6">
@@ -417,7 +420,7 @@
             <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s"
                 style="max-width: 500px;">
                 <h1 class="display-5 mb-3">Customer Review</h1>
-                <p>"I’ve tried many food delivery services, but [<span class="text-danger">Gowthamexport</span>] stands
+                <p>"I’ve tried many food delivery services, but <span class="text-danger">Gowtham Export</span> stands
                     out with its fresh, delicious meals and timely deliveries. The [specific meal, e.g., 'chicken tikka
                     masala'] is my go-to—always piping hot and perfectly seasoned. Highly recommend!.</p>
             </div>
@@ -610,13 +613,62 @@
     </div>
     <!-- Contact End -->
 
+    <!-- For modal  -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Welcome To Gowtham Export
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-12 col-md-6 my-2">
+                            <input type="text" class="form-control name" value="" placeholder="Enter Your Name" />
+                        </div>
+                        <div class="col-12 col-md-6 my-2">
+                            <input type="number" class="form-control number" value="" placeholder="Enter Your Number" />
+                        </div>
+                        <div class="col-12  my-2">
+                            <input type="email" class="form-control email" value="" placeholder="Enter Your Email" />
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    <button type="button" onclick="go()" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type='text/Javascript'>
+          function go() {
+            var name = document.querySelector(".name").value;
+            var email = document.querySelector(".email").value;
+            var number = document.querySelector(".number").value;
+            var url = "https://wa.me/919502553110?text=" +
+            "Name: " +
+            name + " " +
+            "Number: " +
+            number + " " +
+            "Email :" + email;
+            window.open(url,"_blank").focus();
+          }
+</script>
+
+    <!-- Modal end  -->
+
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h3 class="fw-bold text-success m-0">Gowtham<span class="text-white">Export</span></h3>
+                    <h3 class="fw-bold text-success m-0 pb-3">Gowtham<span class="text-white"> Export</span></h3>
                     <p>At Gowtham Export we are passionate about bringing you the freshest and highest quality produce
                         straight from our farm to your table.</p>
                     <div class="d-flex pt-2">
@@ -630,7 +682,7 @@
                                 class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <h4 class="text-light mb-4">Address</h4>
                     <p title="Do-3/24  nedungur village  Karur District  Pin Code -639111"><i
                             class="fa fa-map-marker-alt me-3"></i>Do-3/24 nedungur village Karur District Pin
@@ -646,9 +698,9 @@
                     <a class="btn btn-link" href="">Terms & Condition</a>
                     <a class="btn btn-link" href="">Support</a>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-2 col-md-6">
                     <h4 class="text-light mb-4">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <p>Share your news with us.</p>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
                         <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
                             placeholder="Your email">
@@ -666,7 +718,7 @@
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a href="https://htmlcodex.com">Web2Export</a>
+                        <span>Designed By  <img src="image/logo.webp" alt="" height="70px" width="200px"></span>
                     </div>
                 </div>
             </div>
