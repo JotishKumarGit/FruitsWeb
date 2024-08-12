@@ -404,7 +404,8 @@ col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s"
     background-position: center;
     background-color: white;
 }
-.bg-Contact{
+
+.bg-Contact {
     background-image: linear-gradient(rgb(57 45 45 / 75%), rgb(0 0 0 / 85%)), url("../image/bgContact.webp");
     height: 40vh;
     background-size: cover;
@@ -489,15 +490,10 @@ col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s"
 .content-global {
     background-color: #F3F3F3;
     border-radius: 10px;
-    height: 170px;
-    margin-bottom: 20px;
+    height: 140px;
+    margin-bottom: 7px;
 }
 
 .content-global h3 {
-    margin-top: 9px;
-}
-.content-global:hover {
-    background-color: #F3F3F3;
-    border-radius: 10px;
-    height: 130px;
+    margin-top: 5px;
 }
